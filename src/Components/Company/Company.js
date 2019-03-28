@@ -15,7 +15,7 @@ class Company extends Component {
 			<div>
 				<div className="button-row">
 					<div className="buttonProgram" onClick={this.props.showOther}> ← Our Program</div>
-					<div style={style1} className="button" onClick={() => this.props.companyClick(0)}>Foreflo</div>
+					<div style={style1} className="button" onClick={() => this.props.companyClick(0)}>Stealth Startup</div>
 					<div style={style2} className="button" onClick={() => this.props.companyClick(1)}>Charipay</div>
 					<div style={style3} className="button" onClick={() => this.props.companyClick(2)}>Generosity Designs</div>
 					<div style={style4} className="button" onClick={() => this.props.companyClick(3)}>Performace Blendz</div>
