@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Program.css';
-import dinner from '../../images/2020dinner.png';
-import kickoff from '../../images/kick-off.png';
+import dinner from '../../images/2020dinner.jpg';
+import kickoff from '../../images/kick-off.jpg';
 
 
 class Program extends Component {

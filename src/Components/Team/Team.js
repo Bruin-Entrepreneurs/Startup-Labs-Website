@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './Team.css'
-import anita from '../../images/profile/anita.png'
-import hanad from '../../images/profile/hanad.png'
-import ruban from '../../images/profile/ruban.png'
-import audi from '../../images/profile/audi.png'
-import deanna from '../../images/deanna.png'
-import jennifer from '../../images/jennifer.png'
-import marion from '../../images/marion.png'
-import sunny from '../../images/sunny.png'
+import anita from '../../images/profile/anita.jpg'
+import hanad from '../../images/profile/hanad.jpg'
+import ruban from '../../images/profile/ruban.jpg'
+import audi from '../../images/profile/audi.jpg'
+import deanna from '../../images/deanna.webp'
+import jennifer from '../../images/jennifer.jpg'
+import marion from '../../images/marion.jpg'
+import sunny from '../../images/sunny.jpg'
 
 class Team extends Component {
 
@@ -36,7 +36,7 @@ class Team extends Component {
 						<div className="card">
 							<img className="photo" src={audi} alt="audi"/>
 							<div className="photoName">AUDI LIU</div>
-							<div className="photoTitle"> Marketing</div>
+							<div className="photoTitle"> Operations</div>
 						</div>
 					</div>
 					<div className="teamTitle">Our Advisors</div>
