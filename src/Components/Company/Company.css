@@ -5,6 +5,10 @@
 	}
 }
 
+.width{
+	height: 100vh;
+}
+
 .button-row{
 	display: flex;
 	justify-content: space-around;
