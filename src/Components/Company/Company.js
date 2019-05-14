@@ -18,8 +18,8 @@ class Company extends Component {
 					<div style={style1} className="button" onClick={() => this.props.companyClick(0)}>QueueRated</div>
 					<div style={style2} className="button" onClick={() => this.props.companyClick(1)}>Charipay</div>
 					<div style={style3} className="button" onClick={() => this.props.companyClick(2)}>Generosity Designs</div>
-					<div style={style4} className="button" onClick={() => this.props.companyClick(3)}>Performace Blendz</div>
-					<div style={style5} className="button" onClick={() => this.props.companyClick(4)}>Powered</div>
+					<div style={style4} className="button" onClick={() => this.props.companyClick(3)}>YouTrition</div>
+					<div style={style5} className="button" onClick={() => this.props.companyClick(4)}>Need</div>
 					
 				</div>
 				<div className="companyName">{this.props.company[this.props.index].name}</div>
