@@ -24,11 +24,11 @@
 	cursor: pointer;
 	font-weight: bold;
 	border-radius: 5px;
-	transition: 1s;
+	transition: 0.2s;
 }
 
 .button:hover{
-	animation: companyButton 1s ease-in-out infinite;
+	animation: companyButton 0.7s ease-in-out infinite;
 }
 
 @keyframes companyButton {
