@@ -26,7 +26,7 @@ class Team extends Component {
 						<div className="card">
 							<img className="photo" src={ruban} alt="ruban"/>
 							<div className="photoName">RUBAN RENGARAJU</div>
-							<div className="photoTitle"> Tech Director</div>
+							<div className="photoTitle"> Incoming Director</div>
 						</div>
 						<div className="card">
 							<img className="photo" src={hanad} alt="hanad"/>

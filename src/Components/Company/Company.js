@@ -15,11 +15,11 @@ class Company extends Component {
 			<div className="width">
 				<div className="button-row">
 					<div className="buttonProgram" onClick={this.props.showOther}> ← Our Program</div>
-					<div style={style1} className="button" onClick={() => this.props.companyClick(0)}>QueueRated</div>
+					<div style={style1} className="button" onClick={() => this.props.companyClick(0)}>Need</div>
 					<div style={style2} className="button" onClick={() => this.props.companyClick(1)}>Charipay</div>
-					<div style={style3} className="button" onClick={() => this.props.companyClick(2)}>Generosity Designs</div>
-					<div style={style4} className="button" onClick={() => this.props.companyClick(3)}>YouTrition</div>
-					<div style={style5} className="button" onClick={() => this.props.companyClick(4)}>Need</div>
+					<div style={style3} className="button" onClick={() => this.props.companyClick(2)}>YouTrition</div>
+					<div style={style4} className="button" onClick={() => this.props.companyClick(3)}>Generosity Designs</div>
+					<div style={style5} className="button" onClick={() => this.props.companyClick(4)}>QueueRated</div>
 					
 				</div>
 				<div className="companyName">{this.props.company[this.props.index].name}</div>
