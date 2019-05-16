@@ -21,30 +21,31 @@ class Team extends Component {
 						<div className="card">
 							<a href="https://www.linkedin.com/in/anitailango/" target="_blank" rel="noopener noreferrer">
 								<img className="photo" src={anita} alt="anita"/>
-								<div className="photoName">ANITA ILANGO</div>
-								<div className="photoTitle"> Managing Director</div>
 							</a>
+							<div className="photoName">ANITA ILANGO</div>
+							<div className="photoTitle"> Managing Director</div>
+							
 						</div>
 						<div className="card">
 							<a href="https://www.linkedin.com/in/ruban-rengaraju/" target="_blank" rel="noopener noreferrer">
 								<img className="photo" src={ruban} alt="ruban"/>
-								<div className="photoName">RUBAN RENGARAJU</div>
-								<div className="photoTitle"> Incoming Director</div>
 							</a>
+							<div className="photoName">RUBAN RENGARAJU</div>
+							<div className="photoTitle"> Incoming Director</div>
 						</div>
 						<div className="card">
 							<a href="https://www.linkedin.com/in/hanadmusa/" target="_blank" rel="noopener noreferrer">
 								<img className="photo" src={hanad} alt="hanad"/>
-								<div className="photoName">HANAD MUSA</div>
-								<div className="photoTitle"> Partnerships Director</div>
 							</a>
+							<div className="photoName">HANAD MUSA</div>
+							<div className="photoTitle"> Partnerships Director</div>
 						</div>
 						<div className="card">
 							<a href="https://www.linkedin.com/in/chun-yu/" target="_blank" rel="noopener noreferrer">
 								<img className="photo" src={audi} alt="audi"/>
-								<div className="photoName">AUDI LIU</div>
-								<div className="photoTitle"> Operations</div>
 							</a>
+							<div className="photoName">AUDI LIU</div>
+							<div className="photoTitle"> Operations</div>
 						</div>
 					</div>
 					<div className="teamTitle">Our Advisors</div>
