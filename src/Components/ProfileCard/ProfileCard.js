@@ -11,7 +11,7 @@ class ProfileCard extends Component {
 				<div className="companyCardText">
 					{this.props.text}
 					<div className="companyCardLink">
-						<a href={this.props.link} target="_blank">{this.props.link}</a>
+						<a href={this.props.link} target="_blank" rel="noopener noreferrer">{this.props.link}</a>
 					</div>
 				</div>
 			</div>

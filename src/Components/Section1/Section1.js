@@ -10,7 +10,7 @@ class Section1 extends Component {
 					This is a program that fosters students' startup ideas. 
 					We work with students and mentors to create an environment 
 					that encourages innovation and provides guidance for students 
-					pursuing specific entrepreneurial endeavors. Each quarter, we 
+					pursuing specific entrepreneurial endeavors. Each year, we 
 					welcome a new collaborative cohort into the program and guide 
 					them to success through mentor matching, informative workshops, 
 					and networking events. Startup Labs is dedicated to fostering the 
