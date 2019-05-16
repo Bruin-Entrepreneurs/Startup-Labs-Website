@@ -21,7 +21,7 @@ class Company extends Component {
 					<div style={style4} className="button" onClick={() => this.props.companyClick(3)}>Generosity Designs</div>
 					<div style={style5} className="button" onClick={() => this.props.companyClick(4)}>QueueRated</div>
 				</div>
-				<ProfileCard name={this.props.company[this.props.index].name} text={this.props.company[this.props.index].text}/>
+				<ProfileCard name={this.props.company[this.props.index].name} text={this.props.company[this.props.index].text} link={this.props.company[this.props.index].link}/>
 			</div>
 		)
 	}

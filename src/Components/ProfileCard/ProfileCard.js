@@ -10,9 +10,9 @@ class ProfileCard extends Component {
 				</div>
 				<div className="companyCardText">
 					{this.props.text}
-				</div>
-				<div>
-					{this.props.link}
+					<div className="companyCardLink">
+						<a href={this.props.link} target="_blank">{this.props.link}</a>
+					</div>
 				</div>
 			</div>
 		)
