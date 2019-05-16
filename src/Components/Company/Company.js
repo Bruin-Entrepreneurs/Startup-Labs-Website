@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Company.css'
+import ProfileCard from '../ProfileCard/ProfileCard'
 
 
 class Company extends Component {
@@ -10,7 +11,6 @@ class Company extends Component {
 		let style4 = {backgroundColor: this.props.company[3].backgroundColor, animation: this.props.company[3].animation}
 		let style5 = {backgroundColor: this.props.company[4].backgroundColor, animation: this.props.company[4].animation}
 		// let style6 = {backgroundColor: this.props.company[5].backgroundColor, animation: this.props.company[5].animation}
-
 		return(
 			<div className="width">
 				<div className="button-row">
@@ -20,10 +20,8 @@ class Company extends Component {
 					<div style={style3} className="button" onClick={() => this.props.companyClick(2)}>YouTrition</div>
 					<div style={style4} className="button" onClick={() => this.props.companyClick(3)}>Generosity Designs</div>
 					<div style={style5} className="button" onClick={() => this.props.companyClick(4)}>QueueRated</div>
-					
 				</div>
-				<div className="companyName">{this.props.company[this.props.index].name}</div>
-				<div className="companyText">{this.props.company[this.props.index].text}</div>
+				<ProfileCard name={this.props.company[this.props.index].name} text={this.props.company[this.props.index].text}/>
 			</div>
 		)
 	}
