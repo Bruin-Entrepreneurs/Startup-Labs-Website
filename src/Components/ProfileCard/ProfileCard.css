@@ -13,5 +13,10 @@
 	padding-left: 20vh;
 	padding-right: 20vh;
 	line-height: 5vh;
-	padding-bottom: 22vh;
+	padding-bottom: 21vh;
+}
+
+.companyCardLink{
+	color:green;
+	font-weight: bold;
 }
