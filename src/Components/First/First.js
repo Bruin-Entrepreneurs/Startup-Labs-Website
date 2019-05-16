@@ -13,10 +13,11 @@ class First extends Component {
 				<div className="words" href=""><div>STARTUP</div> <div>LABS</div></div>
 
 				<div className="love">Made with <span className="heart"></span> by <span className="be"> <a href="http://bruinentrepreneurs.org/" target="_blank" rel="noopener noreferrer">Bruin Entrepreneurs </a></span></div>
-
-				<a href="https://docs.google.com/forms/d/e/1FAIpQLScFJw4J9Il54SVfj2rTUyGqeBA0vJjBoAiH7DHV1hytlCt_Ag/viewform" target="_blank" rel="noopener noreferrer"> 
-					<div className="apply_button">APPLY NOW!</div>
-				</a>
+				<div className="apply_button">
+					<a href="https://docs.google.com/forms/d/e/1FAIpQLScFJw4J9Il54SVfj2rTUyGqeBA0vJjBoAiH7DHV1hytlCt_Ag/viewform" target="_blank" rel="noopener noreferrer">
+						APPLY NOW!
+					</a>
+				</div>
 					
 
 

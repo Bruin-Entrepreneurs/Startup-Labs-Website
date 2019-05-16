@@ -19,7 +19,7 @@ class Program extends Component {
 								and other entrepreneurial topics. The program culminates in a Demo Day in the spring, where students present
 								their startups to a network of experienced entrepreneurs and venture capitalists from the LA area. 
 						</div>
-						<div className="companyButton" onClick={this.props.showOther}>Meet The Companies →</div>
+						<div className="companyButton" onClick={this.props.showOther}>Meet 2018-2019 Cohort →</div>
 					</div>
 
 

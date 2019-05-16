@@ -56,21 +56,21 @@
     100% {text-shadow: 1px 1px 1px gray;}
 }
 
-
 .apply_button{
 	width: max-content;
 	padding: 1em 2em;
 	color: white;
 	text-align: center;
-	margin: 0 auto;
+	margin: auto auto;
 	font-size: 2em;
 	font-weight: bold;
 	transition: 1s;
 	background-color: rgb(240, 118, 143);
 }
 
-a{
-	text-decoration: none; 
+a{ 
+	color: white; 
+	text-decoration: none;
 }
 
 .apply_button:hover{
