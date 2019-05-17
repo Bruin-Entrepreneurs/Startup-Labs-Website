@@ -10,66 +10,51 @@ import marion from '../../images/marion.jpg'
 import sunny from '../../images/sunny.jpg'
 
 class Team extends Component {
-
 	render(){
 		let style = {marginTop: "10vh"}
+		let execBoardArray = [
+			{name:"ANITA ILANGO", title:"Managing Director", linkedin: "https://www.linkedin.com/in/anitailango/", src: anita}, 
+			{name:"RUBAN RENGARAJU", title:"Incoming Director", linkedin: "https://www.linkedin.com/in/ruban-rengaraju/", src: ruban},
+			{name:"HANAD MUSA", title:"Partnerships Director", linkedin: "https://www.linkedin.com/in/hanadmusa/", src: hanad}, 
+			{name:"AUDI LIU", title:"Operations", linkedin: "https://www.linkedin.com/in/chun-yu/", src: audi}
+		]
+		let advisorArray = [
+			{name:"DEANNA EVANS", title:"Startup UCLA Director", src: deanna}, 
+			{name:"DR. JENNIFER ​WALSKE", title:"Anderson School Faculty", src: jennifer},
+			{name:"MARION PATRICIO", title:"Program Manager", src: marion}, 
+			{name:"DR. SUNNY ​SINGH", title:"Angel Investor", src: sunny}
+		]
+		let execBoard = execBoardArray.map(data => {
+			return(
+				<div className="card">
+					<a href={data.linkedin} target="_blank" rel="noopener noreferrer" alt={data.name}>
+						<img className="photo" src={data.src}/>
+					</a>
+					<div className="photoName">{data.name}</div>
+					<div className="photoTitle">{data.title}</div>
+				</div>
+			)
+		})
+
+		let advisors = advisorArray.map(data => {
+			return(
+				<div className="card">
+					<img className="photo" src={data.src} alt={data.name}/>
+					<div className="photoName">{data.name}</div>
+					<div className="photoTitle">{data.title}</div>
+				</div>
+			)
+		})
 
 		return(
 				<div className="teamBackground">
 					<div style={style} className="teamTitle">Our Team</div>
 					<div className="grid">
-						<div className="card">
-							<a href="https://www.linkedin.com/in/anitailango/" target="_blank" rel="noopener noreferrer">
-								<img className="photo" src={anita} alt="anita"/>
-							</a>
-							<div className="photoName">ANITA ILANGO</div>
-							<div className="photoTitle"> Managing Director</div>
-							
-						</div>
-						<div className="card">
-							<a href="https://www.linkedin.com/in/ruban-rengaraju/" target="_blank" rel="noopener noreferrer">
-								<img className="photo" src={ruban} alt="ruban"/>
-							</a>
-							<div className="photoName">RUBAN RENGARAJU</div>
-							<div className="photoTitle"> Incoming Director</div>
-						</div>
-						<div className="card">
-							<a href="https://www.linkedin.com/in/hanadmusa/" target="_blank" rel="noopener noreferrer">
-								<img className="photo" src={hanad} alt="hanad"/>
-							</a>
-							<div className="photoName">HANAD MUSA</div>
-							<div className="photoTitle"> Partnerships Director</div>
-						</div>
-						<div className="card">
-							<a href="https://www.linkedin.com/in/chun-yu/" target="_blank" rel="noopener noreferrer">
-								<img className="photo" src={audi} alt="audi"/>
-							</a>
-							<div className="photoName">AUDI LIU</div>
-							<div className="photoTitle"> Operations</div>
-						</div>
+						{execBoard}
 					</div>
 					<div className="teamTitle">Our Advisors</div>
 					<div className="grid">
-						<div className="card">
-							<img className="photo" src={deanna} alt="deanna"/>
-							<div className="photoName">DEANNA EVANS</div>
-							<div className="photoTitle"> Startup UCLA Director</div>
-						</div>
-						<div className="card">
-							<img className="photo" src={jennifer} alt="jennifer"/>
-							<div className="photoName">DR. JENNIFER ​WALSKE</div>
-							<div className="photoTitle">Anderson School Faculty</div>
-						</div>
-						<div className="card">
-							<img className="photo" src={marion} alt="marion"/>
-							<div className="photoName">MARION PATRICIO</div>
-							<div className="photoTitle"> Program Manager</div>
-						</div>
-						<div className="card">
-							<img className="photo" src={sunny} alt="sunny"/>
-							<div className="photoName">DR. SUNNY ​SINGH</div>
-							<div className="photoTitle">Angel Investor</div>
-						</div>
+						{advisors}
 					</div>
 				</div>
 		)
@@ -77,34 +62,3 @@ class Team extends Component {
 }
 
 export default Team
-
-// className="photo"
-
-
-// <div className="card">
-// 	<div className="photoName">Anita Ilango</div>
-// 	<img className="photo" src={anita} alt="anita"/>
-// 	<div className="titlePosition">Managing Directior</div>
-// 	<div>Computer Science 2021</div>
-// </div>
-
-// <div className="card">
-// 	<div className="photoName">Ruban Rengaraju</div>
-// 	<img className="photo" src={ruban} alt="ruban"/>
-// 	<div className="titlePosition">Tech Directior</div>
-// 	<div>Computer Science 2021</div>
-// </div>
-
-// <div className="card">
-// 	<div className="photoName">Hanad Musa</div>
-// 	<img className="photo" src={hanad} alt="hanad"/>
-// 	<div className="titlePosition">Partnerships Directior</div>
-// 	<div>Economics 2019</div>
-// </div>
-
-// <div className="card">
-// 	<div className="photoName">Audi Liu</div>
-// 	<img className="photo" src={audi} alt="audi"/>
-// 	<div className="titlePosition">Partnerships Team</div>
-// 	<div>Mathematics of Computation 2021</div>
-// </div>
