@@ -21,6 +21,9 @@ class Footer extends Component {
 				 				<a href="mailto:ucla.bventures@gmail.com" target="_blank" rel="noopener noreferrer" title="ucla.bventures@gmail.com"> 
 				 					<i class="fas fa-envelope"></i>
 				 				</a>
+				 			</li>
+				 			<li>
+				 				<div>Made with <span className="heart"></span> by <span className="be"> <a href="http://bruinentrepreneurs.org/" target="_blank" rel="noopener noreferrer">Bruin Entrepreneurs </a></span></div>
 				 			</li>		
 				 		</ul>
 				 	</div>
