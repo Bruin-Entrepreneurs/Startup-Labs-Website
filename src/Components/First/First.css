@@ -1,5 +1,5 @@
 .background1{
-	background-color: rgb(189, 214, 239);
+	background-color: #bcd6f0;/*rgb(189, 214, 239);*/
 	height: 96vh;
 	width: 100vw;
 	background-position: relative;
@@ -16,7 +16,7 @@
 	text-align: center;
 	font-size: 10em;
 	font-weight: bold;
-	color: rgb(240, 118, 143);
+	color: #f0768f;/*rgb(240, 118, 143);*/
 	animation: floating 1.75s ease-in-out infinite;
 	cursor: default;
 }
@@ -36,7 +36,7 @@
 	font-size: 2em;
 	font-weight: bold;
 	transition: 1s;
-	background-color: rgb(240, 118, 143);
+	background-color: #f0768f;;
 }
 
 a{ 

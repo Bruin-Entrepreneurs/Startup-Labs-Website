@@ -46,7 +46,6 @@ class Program extends Component {
 					</div>
 				</div>
 				<div className="buttonPadding"> 
-					
 				</div>
 			</div>
 		)
