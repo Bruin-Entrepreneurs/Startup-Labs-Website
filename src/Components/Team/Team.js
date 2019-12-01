@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './Team.css'
-import anita from '../../images/profile/anita.jpg'
-import hanad from '../../images/profile/hanad.jpg'
 import ruban from '../../images/profile/ruban.jpg'
-import audi from '../../images/profile/audi.jpg'
+import isha from '../../images/profile/isha.jpg'
+import riley from '../../images/profile/riley.jpg'
+import paolo from '../../images/profile/paolo.jpg'
 import deanna from '../../images/deanna.jpg'
 import jennifer from '../../images/jennifer.jpg'
 import marion from '../../images/marion.jpg'
@@ -13,10 +13,10 @@ class Team extends Component {
 	render(){
 		let style = {marginTop: "10vh"}
 		let execBoardArray = [
-			{name:"ANITA ILANGO", title:"Managing Director", linkedin: "https://www.linkedin.com/in/anitailango/", src: anita}, 
-			{name:"RUBAN RENGARAJU", title:"Incoming Director", linkedin: "https://www.linkedin.com/in/ruban-rengaraju/", src: ruban},
-			{name:"HANAD MUSA", title:"Partnerships Director", linkedin: "https://www.linkedin.com/in/hanadmusa/", src: hanad}, 
-			{name:"AUDI LIU", title:"Operations", linkedin: "https://www.linkedin.com/in/chun-yu/", src: audi}
+			{name:"RUBAN RENGARAJU", title:"Managing Director", linkedin: "https://www.linkedin.com/in/ruban-rengaraju/", src: ruban}, 
+			{name:"ISHA KAMATH", title:"Partnerships & Events", linkedin: "", src: isha},
+			{name:"RILEY NOON", title:"Events & Marketing", linkedin: "https://www.linkedin.com/in/riley-noon-7b54b2163/detail/photo/", src: riley}, 
+			{name:"PAOLO SHAMOON", title:"Operations & Partnerships", linkedin: "https://www.linkedin.com/in/paolo-shamoon-bb3519171/", src: paolo}
 		]
 		let advisorArray = [
 			{name:"DEANNA EVANS", title:"Startup UCLA Director", src: deanna}, 
