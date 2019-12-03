@@ -1,2 +1,2 @@
 # Startup-Labs-Website
-Startup Labs Website made in React
+Startup Labs Website made in React. 
