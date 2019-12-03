@@ -25,10 +25,16 @@ class Team extends Component {
 			{name:"DR. SUNNY ​SINGH", title:"Angel Investor", src: sunny}
 		]
 		let execBoard = execBoardArray.map(data => {
+			let target
+			if (data.linkedin === ""){
+				target = ""
+			} else {
+				target = "_blank"
+			}
 			return(
 				<div className="card">
-					<a href={data.linkedin} target="_blank" rel="noopener noreferrer" alt={data.name}>
-						<img className="photo" src={data.src}/>
+					<a href={data.linkedin} target={target} rel="noopener noreferrer">
+						<img className="photo" src={data.src} alt={data.name}/>
 					</a>
 					<div className="photoName">{data.name}</div>
 					<div className="photoTitle">{data.title}</div>
