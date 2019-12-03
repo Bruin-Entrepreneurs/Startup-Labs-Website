@@ -1,6 +1,6 @@
 .background1{
 	background-color: #bcd6f0;/*rgb(189, 214, 239);*/
-	height: 96vh;
+	min-height: 96vh;
 	width: 100vw;
 	background-position: relative;
 	padding-top: 1px;
@@ -33,10 +33,10 @@
 	color: white;
 	text-align: center;
 	margin: auto auto;
-	font-size: 2em;
+	font-size: 4.1vh;
 	font-weight: bold;
 	transition: 1s;
-	background-color: #f0768f;;
+	background-color: #f0768f;
 }
 
 a{ 

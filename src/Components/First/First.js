@@ -8,11 +8,11 @@ class First extends Component {
 		return(
 			<div className="background1"> 
 				<div className="words" href=""><div>STARTUP</div> <div>LABS</div></div>
-				<div className="apply_button">
-					<a href="https://forms.gle/8QZcVtWkMVJhULej8" target="_blank" rel="noopener noreferrer">
+				<a href="https://forms.gle/8QZcVtWkMVJhULej8" target="_blank" rel="noopener noreferrer">
+					<div className="apply_button">
 						APPLY NOW!
-					</a>
-				</div>
+					</div>
+				</a>
 			</div>
 		)
 	}
